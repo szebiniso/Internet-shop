@@ -1,0 +1,14 @@
+
+								
+													<div class="listing_zakazov"><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.j1103332.ndzjp.spectrum.myjino.ru/product/sumka2/img/block-products/img1.jpg" alt=""></div><div class="opisanie_tovara"><p>Calvin Klein Logo Sweatpants</p><p class="cart_count"><span>Количество:</span><span>1</span></p><p class="cart_color_size"><span>Синий </span><span>S</span></p><div class="block_price"><span class="originalnaya_cena"><span class="synbol">$</span><span class="cena_za_odin">46.00</span></span><sup> <span>*</span> <span>46</span></sup></div></div></a><div class="udalit_zakaz"><i class="far fa-trash-alt"></i></div></div><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.j1103332.ndzjp.spectrum.myjino.ru/product/kofta/img/block-products/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Calvin Klein Logo Sweatpants</p><p class="cart_count"><span>Количество:</span><span>5</span></p><p class="cart_color_size"><span>Зеленый </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="synbol">$</span><span class="cena_za_odin">46.00</span></span><sup> <span>*</span> <span>230</span></sup></div></div></a><div class="udalit_zakaz"><i class="far fa-trash-alt"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Подытог:</span>
+														<span class="itog">$ 46</span>
+													</div>
+
+													<div class="checkout">
+														<a href="https://wa.me/996709091753?text=Здравствуйте! Меня интересуют товары с Вашего магазина http://wp1.j1103332.ndzjp.spectrum.myjino.ru/ Я положил(а) товары в корзину, можете пожалуйста посмотреть." target="_blank">Оформить</a>
+													</div>
+
+												

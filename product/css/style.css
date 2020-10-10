@@ -1,0 +1,551 @@
+/*Main*/
+	i, a, span, li {color: #4c4b6c}
+
+/*Standarts*/
+	.b-r {border-right: 1px solid grey}
+	.t-r {text-align: right}
+	.dnone {display: none}
+	.f-b {font-weight: bold}
+	.def_color_txt{color: #4b4b6b}
+	.cl_both {clear: both}
+	ul { list-style: none; padding: 0; margin: 0;display: inline-block}
+	.color-grey {color: grey}
+	.active_dots {list-style: circle}
+	.active {display:block!important}
+/*Standarts*/
+
+/*Header*/
+	/*Top*/
+	.bg_grey{
+		background: #f7f7f7;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 15px;
+	}
+	.get_arrow:after {
+		content: "›";
+		transform: rotate(90deg);
+		position: absolute;
+		right: 5px;
+		bottom: 0;
+	}
+	sup.count_gits {
+		background: red;
+		border-radius: 50px;
+		width: 12px;
+		height: 13px;
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		top: -4px;
+		text-align: center;
+		line-height: 1.5;
+		color: white;
+		font-size: 8px;
+	}
+	span.block_podarki {
+		position: relative;
+	}
+	/*Middle*/
+	.menu_desc .levaya {
+		float: left;
+		background: #f4f4f4;
+		padding: 13px;
+		border-radius: 50px;
+		height: 40px;
+		width: 40px;
+		line-height: 0;
+	}
+
+	.menu_desc .desc_pravaya {
+		display: inline-block;
+		margin-left: 10px;
+	}
+	.menu_desc .desc_pravaya p {
+		margin-bottom: 0;
+		font-size: 14px;
+	}
+	/*Bottom*/
+	.search_form input[type="search"] {
+		width: 300px;
+		border-radius: 20px;
+	}
+
+	.search_form button {
+		border-radius: 50px;
+		position: absolute;
+		right: 0;
+		background: white;
+		border: 1px solid #ced4da;
+		width: 53px;
+	}
+
+	form.form-inline.my-2.my-lg-0.search_form {}
+
+	.search_form {
+		position: relative;
+	}
+
+	.search_form button i {
+		color: black;
+	}
+
+	.search_form button:hover {
+		background: #4b4b6b;
+		border: 1px solid #ced4da;
+	}
+
+	.search_form button:hover i {
+		color: white;
+	}
+	.icon_cart {
+		padding: 5px;
+		background: #fc3;
+		color: white;
+		width: 34px;
+		height: 34px;
+		text-align: center;
+		border-radius: 50px;
+		line-height: 1.7;
+		float: left;
+		margin-top: 3px;
+	}
+
+	.cart_open i {
+		color: white;
+	}
+
+	.korzina_kolichestvo {
+		display: inline-block;
+		margin-left: 10px;
+		font-size: 13px;
+	}
+
+	.korzina_kolichestvo p {
+		margin-bottom: 0;
+	}
+
+	.korzina_kolichestvo > p:first-child {
+		font-size: 14px;
+		font-weight: bold;
+		color: #4b4b6b;
+	}
+
+	.korzina_kolichestvo span {
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.cart .dropdown-toggle::after {
+		display: none;
+	}
+	.cart .dropdown-menu {
+		left: -47px;
+		
+	}
+	.dropdown-menu {
+		top: 50px;
+	}
+
+/**/
+
+ul.block_photo li {
+	float: left;
+	width: 50%;
+	padding: 7px;
+}
+
+ul.block_photo li img {
+	width: 100%;
+	object-fit: cover;
+}
+
+ul.block_photo {
+	padding: 0px;
+}
+ul.block_photo {
+	list-style: none;
+}
+ul.block_photo img:hover {
+	box-shadow: 0px 0px 13px -5px black;
+	border-radius: 5px;
+	transition: .5s;
+}
+
+.block_photo img {
+	transition: .5s;
+}
+
+.ttle {
+	font-size: 25px;
+}
+
+.review {
+	font-size: 13px;
+	font-style: italic;
+}
+
+.review img {height: 30px;}
+
+.mini_desc {
+	font-size: 15px;
+}
+.price {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/**/
+
+ul.list_option {
+	padding: 0px;
+	list-style: none;
+}
+
+ul.list_option span {
+/*     background: red; */
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+	display: inline-block;
+	/*margin: 1px;*/
+}
+
+ul.list_option li {
+	float: left;
+	margin: 5px;
+	border: 1px solid transparent;
+	border-radius: 50px;
+	height: 29px;
+
+	transition: .5s;
+	padding: 1px;
+}
+
+.list_option li:first-child {
+	margin-left: 0;
+}
+
+.beruza {
+	background: #8bccca;
+}
+
+.jeltyi {
+	background: #fdc140;
+}
+
+.sinii {
+	background: #8dcff4;
+}
+
+.rozovyi {
+	background: #f69fbc;
+}
+
+.zelenyi {
+	background: #a8d59d;
+}
+
+ul.list_option li:hover,
+ul.list_option li.active {
+	border: 1px solid #777777;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.product_size {
+	clear: both;
+}
+.product_size ul.list_option li {
+	text-align: center;
+}
+
+.product_size ul.list_option li span {
+	background: #e4e4e4;
+	width: 36px;
+	transition: .5s;
+}
+
+.product_size ul.list_option li span:hover,
+.product_size ul.list_option li.active span {
+	background: #4b4b6b;
+	color: white;
+	transition: .5s;
+}
+
+/*Lesson 22*/
+.count_product button {
+	border: none;
+	background: transparent;
+}
+
+input.js-number {
+	width: 65px;
+	height: 40px;
+	text-align: center;
+	background: #f4f4f4;
+	border: none;
+	border-left: 1px dashed white;
+	border-right: 1px dashed white;
+}
+
+.count_product {
+	background: #f4f4f4;
+	border-radius: 40px;
+	text-align: center;
+}
+.product_btns a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 2.5;
+	background: #f4f4f4;
+	border-radius: 40px;
+	margin-right: 10px;
+}
+ul.head_tabs li {
+	float: left;
+	margin: 5px 15px;
+	font-size: 19px;
+	border-bottom: 2px solid transparent;
+	transition: .5s;
+	color: grey;
+}
+
+ul.head_tabs li.active, ul.head_tabs li:hover {
+	border-bottom: 2px solid #4b4b6b;
+	transition: .5s;
+	color: #4b4b6b;
+	cursor: pointer;
+}
+ul.head_tabs li:first-child {margin-left: 0;}
+.comment textarea,.comment input {
+	border: 1px solid #e6e6e6;
+	font-size: 14px;
+	padding: 5px 15px;
+}
+
+.comment input {
+	height: 40px;
+	width: 210px;
+}
+
+/*Lesson 23*/
+.nxt_prev {font-size: 40px;}
+ul.btn_prev li {float: left;}
+ul.btn_prev p,
+.ttl_product {
+	padding: 0 10px;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+ul.btn_prev p ~ p,
+.date_publish {
+	font-weight: normal;
+	font-size: 14px;
+	color: grey;
+	font-style: italic;
+}
+ul.btn_prev:hover i,
+.nxt_btn:hover i {
+	color: #7cd1f5;
+	transition: .5s;
+}
+
+ul.btn_prev, .nxt_btn {
+	transition: .5s;
+	cursor: pointer;
+}
+
+/*Slider btns*/
+button.slick-prev.slick-arrow{
+	position: absolute;
+	right: 63px;
+	top: 0;
+	left: auto;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: #4b4b6b!important;
+	font-size: 35px!important;
+	opacity: 1!important
+}
+
+button.slick-next.slick-arrow {
+	right: 23px
+}
+
+button.slick-next.slick-arrow,
+button.slick-prev.slick-arrow {
+	top: -35px;
+}
+
+.txt_related {
+	font-size: 28px;
+	color: #4b4b6b;
+}
+.related_block {
+	background: #efefef;
+	padding: 50px 0;
+}
+/*Labels*/
+.product_cont {position: relative}
+span.lbl_title {
+	position: absolute;
+	top: 1px;
+	right: 17px;
+	background: red;
+	color: white;
+	padding: 3px 6px;
+	border-radius: 8px;
+	font-size: 13px;
+	text-align: center;
+}
+.lbl_title.blue {
+	background: #58809a;
+}
+
+.lbl_title.red {
+	background: red;
+}
+.lbl_title.yellow {
+	background: #ffcc33;
+}
+span.lbl_title:before {content: "";position: absolute;border-bottom: 10px solid transparent;left: 12px;bottom: -7px;z-index: 1;}
+span.blue:before {border-left: 9px solid #58809a;}
+span.red:before {border-left: 9px solid #ff0100;}
+span.yellow:before {border-left: 9px solid #fdcb34;}
+
+p.ttl {font-size: 15px;font-weight: bold;margin-bottom: 0;}
+p.price {font-size: 14px;}
+span.originalnaya_cena {font-size: 19px;}
+span.staraya_cena {
+	font-weight: normal;
+	text-decoration: line-through;
+	margin-left: 11px;
+}
+
+.data_tabs > div,
+.product_color ul.list_option span > span {display: none}
+
+/*Cart*/
+.data_cart.dropdown-menu.show {
+	width: 310px;
+	right: 0;
+	left: auto;
+}
+
+.dannye_tovarov {
+	display: inline-block;
+	position: relative;
+	border-bottom: 1px solid #e4e4e4;
+	margin: 0 8px;
+	clear: left;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	width: 94%;
+}
+
+.kartinka_tovara {
+	float: left;
+	width: 85px;
+	height: 85px;
+	overflow: hidden;
+}
+
+.opisanie_tovara p {
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+.opisanie_tovara span.originalnaya_cena {
+	font-size: 16px;
+}
+
+.opisanie_tovara span.staraya_cena {font-size: 13px;}
+
+.opisanie_tovara {
+	display: inline-block;
+	margin-left: 6px;
+}
+p.cart_color_size span {
+	color: #979797;
+	font-weight: normal;
+}
+.udalit_zakaz {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+
+.listing_zakazov .dannye_tovarov:first-child {
+	padding-top: 0;
+}
+
+/**/
+
+.itogvaya_cena {
+	padding: 0 8px;
+	font-size: 19px;
+}
+.itogvaya_cena span {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+span.itog {
+	text-align: right;
+}
+
+.checkout {
+	display: inline-block;
+	width: 100%;
+	padding: 0 8px;
+	margin: 12px 0 0;
+}
+
+.checkout a {
+	width: 100%;
+	background: #4b4b6b;
+	color: white;
+	border: none;
+	padding: 10px 0;
+	border: 1px dashed white;
+	transition: .5s;
+	display: block;
+    text-align: center;
+}
+
+.checkout a:hover {
+	background: #4b4b6bdb;
+	transition: .5s;
+}
+
+.product_info .price {
+	font-size: 25px;
+}
+p.cart_count {
+	font-weight: normal;
+}
+.kartinka_tovara img {
+	height: 100%;
+	object-fit: contain;
+}
+
+/*Lesson 26*/
+.listing_zakazov span.cart_ttl {
+    text-align: center;
+    margin-bottom: 40px;
+    display: block
+}
+
+.product_size ul.list_option,
+.product_color ul.list_option {
+	border: 1px solid transparent; 
+}
+
+.product_color ul.list_option {
+    /*border: 1px solid red;*/
+}
